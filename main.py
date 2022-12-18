@@ -8,6 +8,7 @@ from pymongo.server_api import ServerApi
 import datetime as dt
 from Schemas import MotionSensorSchema
 
+# loading private connection information from environment variables
 
 # loading private connection information from environment variables
 from dotenv import load_dotenv
