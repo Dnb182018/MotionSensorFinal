@@ -17,6 +17,8 @@ MONGODB_PASS = os.environ.get("MONGODB_PASS")
 client = pymongo.MongoClient(f"mongodb+srv://{MONGODB_USER}:{MONGODB_PASS}@{MONGODB_LINK}/?retryWrites=true&w=majority",
                              server_api=ServerApi('1'))
 db = client.MotionDetection
+
+
 num = 1
 isSensorOn = True
 
