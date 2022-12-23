@@ -25,6 +25,11 @@
 This GET request allows us to see and select all the values that will be in the database and
 that will be captured by the motion sensor in the different locations.
 
+
+Expected response:
+
+![img_3.png](img_3.png)
+
 ---------
 
 #### GET: /sensors/<<int:sensorId>>/motion
@@ -33,7 +38,17 @@ This GET request allows us to see and select the data for a specific sensor Id. 
 represents the location of the motion sensor. It will first match and then group by sensorId
 and will finally sum the number of detections for that specific sensor.
 
+
+Expected response:
+
+![img.png](img.png)
+
 -----------
 
 #### POST: /sensors/<<int:sensorId>>/motion
 This POST request allows us to create and insert new values for a specific sensorId.
+
+
+Expected response:
+
+![img_6.png](img_6.png)
